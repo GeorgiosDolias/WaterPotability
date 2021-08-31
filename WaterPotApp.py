@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pandas import read_csv
 import numpy
-from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
@@ -43,7 +41,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-df_imported = read_csv("water_potability.csv")
+df_imported = pdf.read_csv("water_potability.csv")
 df2 = df_imported.dropna()
 water= df2.sample(frac=1)
 
