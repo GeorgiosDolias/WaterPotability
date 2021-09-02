@@ -41,7 +41,7 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-df_imported = pdf.read_csv("water_potability.csv")
+df_imported = pd.read_csv("water_potability.csv")
 df2 = df_imported.dropna()
 water= df2.sample(frac=1)
 
