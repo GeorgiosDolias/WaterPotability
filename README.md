@@ -27,7 +27,7 @@ The imported csv file contains water quality metrics for 3276 different water bo
 
 1. First, we create a virtual Python environment called my_venv
 ```
-  python3 -m venv my_env
+  python3 -m venv my_venv
 ```
 2. Then, we activate the virtual environment
 ```
